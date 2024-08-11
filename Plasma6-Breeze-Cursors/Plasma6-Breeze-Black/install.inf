@@ -1,0 +1,61 @@
+[Version]
+signature="$CHICAGO$"
+KDE Plasma 6 Breeze cursors.
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%text%,%10%\%CUR_DIR%\%handwriting%,%10%\%CUR_DIR%\%unavailable%,%10%\%CUR_DIR%\%vert%,%10%\%CUR_DIR%\%horz%,%10%\%CUR_DIR%\%dgn1%,%10%\%CUR_DIR%\%dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%,%10%\%CUR_DIR%\%pin%,%10%\%CUR_DIR%\%person%,%10%\%CUR_DIR%\%pan%,%10%\%CUR_DIR%\%grabbing%,%10%\%CUR_DIR%\%zoom-in%,%10%\%CUR_DIR%\%zoom-out%"
+
+[Scheme.Cur]
+Pointer.cur
+Help.cur
+Work.ani
+Busy.ani
+Cross.cur
+Text.cur
+Handwriting.cur
+Unavailable.cur
+Vert.cur
+Horz.cur
+Dgn1.cur
+Dgn2.cur
+Move.cur
+Alternate.cur
+Link.cur
+Pin.cur
+Person.cur
+Pan.cur
+Grabbing.cur
+Zoom-in.cur
+Zoom-out.cur
+
+[Strings]
+CUR_DIR             = "Cursors\Plasma6-Breeze-Black"
+SCHEME_NAME         = "Plasma6-Breeze-Black"
+pointer             = "Pointer.cur"
+help                = "Help.cur"
+work                = "Work.ani"
+busy                = "Busy.ani"
+cross               = "Cross.cur"
+text                = "Text.cur"
+handwriting         = "Handwriting.cur"
+unavailable         = "Unavailable.cur"
+vert                = "Vert.cur"
+horz                = "Horz.cur"
+dgn1                = "Dgn1.cur"
+dgn2                = "Dgn2.cur"
+move                = "Move.cur"
+alternate           = "Alternate.cur"
+link                = "Link.cur"
+pin                 = "Pin.cur"
+person              = "Person.cur"
+pan                 = "Pan.cur"
+grabbing            = "Grabbing.cur"
+zoom-in             = "Zoom-in.cur"
+zoom-out            = "Zoom-out.cur"
